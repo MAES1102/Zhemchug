@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для моей самой прекрасной Жемчуженки</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="main-title">Для моей самой прекрасной Жемчуженки</h1>
+            <p class="subtitle">"Каждый день с тобой — подарок судьбы"</p>
+            
+            <div class="button-container">
+                <button id="loveButton" class="love-button">Нажми меня</button>
+                <button id="secretButton" class="secret-button">Секрет</button>
+            </div>
+            
+            <div id="loveMessage" class="love-message hidden">
+                <h2>Моя дорогая,</h2>
+                <p>Каждый день с тобой — это подарок, который я берегу. Твоя улыбка освещает мой мир, а твоя любовь наполняет мое сердце бесконечной радостью. Ты — мое всё, мое навсегда, мое всегда.</p>
+                <p>С любовью,</p>
+                <p class="signature">Твой журека ❤️</p>
+            </div>
+        </div>
+        
+        <!-- Why you are special section -->
+        <div class="section special-section">
+            <h2 class="section-title">Почему ты для меня особенная</h2>
+            <div class="special-list">
+                <div class="special-item">
+                    <div class="special-icon">😊</div>
+                    <p>Ты всегда даришь мне улыбку</p>
+                </div>
+                <div class="special-item">
+                    <div class="special-icon">❤️</div>
+                    <p>Рядом с тобой я чувствую себя счастливым</p>
+                </div>
+                <div class="special-item">
+                    <div class="special-icon">✨</div>
+                    <p>У тебя самые красивые глаза</p>
+                </div>
+                <div class="special-item">
+                    <div class="special-icon">🌟</div>
+                    <p>Ты вдохновляешь меня становиться лучше</p>
+                </div>
+                <div class="special-item">
+                    <div class="special-icon">💕</div>
+                    <p>Я обожаю твой смех</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Our dreams section -->
+        <div class="section dreams-section">
+            <h2 class="section-title">Наши мечты</h2>
+            <div class="dreams-grid">
+                <div class="dream-item">
+                    <div class="dream-icon">✈️</div>
+                    <p>Путешествия</p>
+                </div>
+                <div class="dream-item">
+                    <div class="dream-icon">💞</div>
+                    <p>Наслаждаться друг другом</p>
+                </div>
+                <div class="dream-item">
+                    <div class="dream-icon">👨‍👩‍👧‍👦</div>
+                    <p>Семья</p>
+                </div>
+                <div class="dream-item">
+                    <div class="dream-icon">🏠</div>
+                    <p>Уютный дом</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Days together section -->
+        <div class="section days-section">
+            <h2 class="section-title">Мы вместе уже</h2>
+            <div class="timer-container">
+                <div class="timer-display" id="timerDisplay">
+                    <span class="timer-number" id="daysCounter">0</span>
+                    <span class="timer-label">дней</span>
+                    <span class="timer-number" id="hoursCounter">0</span>
+                    <span class="timer-label">часов</span>
+                    <span class="timer-number" id="minutesCounter">0</span>
+                    <span class="timer-label">минут</span>
+                    <span class="timer-number" id="secondsCounter">0</span>
+                    <span class="timer-label">секунд</span>
+                    <span class="timer-heart">💖</span>
+                </div>
+                <div class="timer-date">С 4 августа 2025 года</div>
+            </div>
+        </div>
+        
+        <!-- Secret section -->
+        <div id="secretSection" class="secret-section hidden">
+            <div class="secret-content">
+                <h2 class="secret-title">Секретное послание</h2>
+                <p class="secret-message">Я рад, что мы начали эту историю, и хочу, чтобы она длилась вечно 💖</p>
+                <div class="secret-hearts">💕✨💕✨💕</div>
+            </div>
+        </div>
+        
+        <!-- Floating hearts container -->
+        <div id="heartsContainer" class="hearts-container"></div>
+        
+        <!-- Sakura petals container -->
+        <div id="sakuraContainer" class="sakura-container"></div>
+        
+        <!-- Central beating heart -->
+        <div class="central-heart">❤️</div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
